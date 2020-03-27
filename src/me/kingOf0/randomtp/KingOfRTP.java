@@ -6,6 +6,7 @@ import me.kingOf0.randomtp.file.Config;
 import me.kingOf0.randomtp.file.Messages;
 import me.kingOf0.randomtp.listener.CommandListener;
 import me.kingOf0.randomtp.listener.DamageListener;
+import me.kingOf0.randomtp.listener.InteractListener;
 import me.kingOf0.randomtp.listener.MoveListener;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -39,6 +40,9 @@ public class KingOfRTP extends JavaPlugin {
         }
         if (config.getBoolean("damageListener", true)) {
             getServer().getPluginManager().registerEvents(new DamageListener(), this);
+        }
+        if (config.getBoolean("interactListener", true)) {
+            getServer().getPluginManager().registerEvents(new InteractListener(), this);
         }
 
         getCommand("randomtp").setExecutor(new RandomTPCommand());

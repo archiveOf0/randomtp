@@ -11,3 +11,4 @@ checkYMin: 10
 commandListener: true
 moveListener: true
 damageListener: true
+interactListener: true
