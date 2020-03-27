@@ -1,0 +1,10 @@
+main: me.kingOf0.randomtp.KingOfRTP
+version: 1.0.0
+name: KingOfRTP
+author: "KingOf0 | Infumia"
+commands:
+  randomtp:
+    usage: "Probably you have errors on startup"
+    aliases:
+    - rtp
+    - krtp

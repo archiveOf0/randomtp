@@ -1,0 +1,13 @@
+location:
+  world: world
+  x: 0.0
+  y: 0.0
+  z: 0.0
+size: 1000
+delay: 3
+cooldown: 20
+checkYMax: 200
+checkYMin: 10
+commandListener: true
+moveListener: true
+damageListener: true

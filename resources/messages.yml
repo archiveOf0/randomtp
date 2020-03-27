@@ -1,0 +1,16 @@
+noconsole: "&6&lRTP &8► &7Console can't teleport randomly..."
+noperm: "&6&lRTP &8► &7You don't have enough permission to use this command".
+reloaded: "&6&lRTP &8► &7You have reloaded the config. Please, check the console for any errors."
+hascooldown: "&6&lRTP &8► &7You have to wait &a%cooldown% &7seconds to use this command again."
+nocommand: "&6&lRTP &8► &7Theres no command like this."
+nocommand-set: "&6&lRTP &8► &7You cannot set this. You can set size, location, delay, cooldown, checkymin and checkymax."
+notvalidarg-set: "&6&lRTP &8► &7You should use integer to set. The time unit is seconds.."
+successfullyset: "&6&lRTP &8► &7You have successfully set."
+alreadyteleporting: "&6&lRTP &8► &7You are already teleporting."
+teleported: "&6&lRTP &8► &7You have teleported to randomly location."
+teleporting: "&6&lRTP &8► &7You are teleporting now.. You will be in anywhere in &a%delay% &7seconds."
+teleportingcancelled-move: "&6&lRTP &8► &7Your teleport has been cancelled due to move."
+teleportingcancelled-damage: "&6&lRTP &8► &7Your teleport has been cancelled due to dealing damage or getting attacked".
+teleportingcancelled-command: "&6&lRTP &8► &7Your teleport has been cancelled due to using command."
+teleportingcancelled-interact: "&6&lRTP &8► &7Your teleport has been cancelled due to interact with something."
+alreadyteleporting-other: "&6&lRTP &8► &7This player is already teleporting..."
